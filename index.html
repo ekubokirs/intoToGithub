@@ -30,7 +30,7 @@
 					<h3>How to prevent "Oh No! Everything is Gone!", "What was I thinking?" and "Everything is broken!"</h3>
 				</section>
 				<section>
-					<h2>What is source control?</h2>
+					<h2>What is source/version control?</h2>
 					<p>A component of software configuration management, version control, also known as revision control or source control, is the management of changes to documents, computer programs, large web sites, and other collections of information.</p>
 				</section>
 				<section>
@@ -65,6 +65,18 @@
 					<p>We used to use Beanstalk instead of Github</p>
 				</section>
 				<section>
+					<h2>Vocabulary</h2>
+					<ul>
+						<li class="fragment">Local: The machine you're working on</li>
+						<li class="fragment">Remote: The server where the code lives that is not your computer</li>
+						<li class="fragment">Repository (Repo): Folder/Directory</li>
+						<li class="fragment">Commit: Defined version of your code and the changes you are making</li>
+						<li class="fragment">Pushing: Moving code from your machine to the server</li>
+						<li class="fragment">Pulling: Bringing changes down to your machine from the server</li>
+						<li class="fragment">If you're using Github for Desktop, "Sync" Pulls and Pushes to the remote</li>
+					</ul>
+				</section>
+				<section>
 					<h2>How to Read a Repo</h2>
 					<ul>
 						<li>Drupal and Wordpress generate a file structure and named files automatically</li>
@@ -85,18 +97,6 @@
 					<h2><a href="https://github.com/ekubokirs/introToGithubExamples" target="_blank">Github Camping Trip Food Planning</a><h2>
 				</section>
 				<section>
-					<h2>Vocabulary</h2>
-					<ul>
-						<li class="fragment">Local: The machine you're working on</li>
-						<li class="fragment">Remote: The server where the code lives that is not your computer</li>
-						<li class="fragment">Repository: Folder/Directory</li>
-						<li class="fragment">Commit: Defined version of your code and the changes you are making</li>
-						<li class="fragment">Pushing: Moving code from your machine to the server</li>
-						<li class="fragment">Pulling: Bringing changes down to your machine from the server</li>
-						<li class="fragment">If you're using Github for Desktop, "Sync" Pulls and Pushes to the remote</li>
-					</ul>
-				</section>
-				<section>
 					<h2>Collaboration in the Real World: Keeping Your Stuff Separate</h2>
 					<ul>
 						<li>Branching: An offshoot of the main code base</li>
@@ -115,7 +115,7 @@
 						<li>Pull Request
 							<ul>
 								<li>Easier to see the files that everyone changed</li>
-								<li>More complicated to manage</li>
+								<!-- <li>More complicated to manage</li> -->
 								<li>Adds an extra step</li>
 								<li>Can be assigned to others for code review</li>
 
@@ -125,9 +125,16 @@
 				<section>
 					<h2>Rebasing versus Merging</h2>
 					<ul>
-						<li>Rebasing: Rewrites the history of the branch/commits</li>
-						<li>Merging: Puts commits back into the history based on where the branches diverged</li>
+						<li>Rebasing: Rewrites the history of the branch/commits. This usually means that it puts commits after all other completed work on the existing branch.</li>
+						<li>Merging: Puts commits back into the history based on where the branches diverged. Commits are put in chronological order.</li>
 					</ul>
+				</section>
+				<section>
+					<img src="rebase-merge.jpg">
+				</section>
+				<section>
+					<h2>FUN WITH JIRA</h2>
+					<h3>aka how to make your life easier</h3>
 				</section>
 			</div>
 		</div>
