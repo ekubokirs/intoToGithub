@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<title>Intro to Source Control and Github</title>
-		<meta content="Introduction to Source Control and Github for General Assembly DC FEWD 29.">
+		<meta content="Introduction to Source Control and Github CHIEF's Tech Management Meeting.">
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/night.css">
@@ -26,40 +26,8 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1> Intro to Naming, Source Control and Github</h1>
-					<h3> How to prevent "Oh No! Everything is Gone!", "What was I thinking?" and "Everything is broken!"</h3>
-				</section>
-				<section>
-					<h2>File Structure</h2>
-					<ul>
-						<li>Group like files</li>
-						<li>Name files clearly</li>
-						<li>Examples
-							<ul>
-								<li><a href="https://github.com/ekubokirs/intoToGithub" target="_blank">This presentation's code</a></li>
-								<li><a href="https://github.com/ekubokirs/gradGift" target="_blank">Ruby on Rails Project</a></li>
-							</ul>
-						</li>
-					</ul>
-				</section>
-				<section>
-					<h2>What is the index.html?</h2>
-					<ul class="fragment">
-						<li>Usually the default file in a directory</li>
-						<li>Hosted services will look for index files and show that first</li>
-						<li>If it's not there, the file structure will show</li>
-					</ul> 
-				</section>
-				<section>
-					<p>All the best practices about file names also apply to your class and id names.</p>
-					<p>Write for your future self (or someone else)</p>
-				</section>
-				<section>
-					<h2>Naming Your Files and Folders</h2>
-					<ul>
-						<li>Camel Case: thisIsTheFileName</li>
-						<li>Snake Case: this_is_the_file_name or this-is-the-file-name</li>
-					</ul>
+					<h1>Fun with Git, Github and JIRA</h1>
+					<h3>How to prevent "Oh No! Everything is Gone!", "What was I thinking?" and "Everything is broken!"</h3>
 				</section>
 				<section>
 					<h2>What is source control?</h2>
@@ -68,8 +36,8 @@
 				<section>
 					<h2>Why do I care?</h2>
 					<ul>
-						<li>Allows you to ensure that your code is in a working state</li>
-						<li>Prevents your computer from being the be all end all for housing your in-progress code</li>
+						<li>Allows you to ensure that code is in a working state</li>
+						<li>Prevents a single computer from being the be all end all for housing in-progress code</li>
 						<li>Make collaboration easier and attempts to prevent merge conflicts</li>
 					</ul>
 				</section>
@@ -78,14 +46,13 @@
 					<ul>
 						<li class="fragment">Microsoft Office Track Changes</li>
 						<li class="fragment">Google Docs History and Suggestions</li>
+						<li class="fragment">Other Technical Kinds
+							<ul>
+								<li>Mercurial</li>
+								<li>Subversion</li>
+							</ul>
+						</li>
 					</ul>
-				</section>
-				<section>
-					<h2>Camping Trip Food Planning Activity</h2>
-					<p>We're going to make a list of food items we need for a camping trip</p>
-				</section>
-				<section>
-					<h2><a href="https://github.com/ekubokirs/introToGithubExamples" target="_blank">Github Camping Trip Food Planning</a><h2>
 				</section>
 				<section>
 					<h2>What is Git?</h2>
@@ -95,6 +62,27 @@
 					<h3>Git and Github are NOT the same!</h3>
 					<p>Git is the version control system.</p>
 					<p>Github is the user interface that utilizes git.  You can use git without Github.</p>
+					<p>We used to use Beanstalk instead of Github</p>
+				</section>
+				<section>
+					<h2>How to Read a Repo</h2>
+					<ul>
+						<li>Drupal and Wordpress generate a file structure and named files automatically</li>
+						<li>Many languages structure repositories similarly but if there is no given structure then there should always be an index.html if there is a front-end.</li>
+						<li>Examples
+							<ul>
+								<li><a href="https://github.com/ekubokirs/intoToGithub" target="_blank">This presentation's code</a></li>
+								<li><a href="https://github.com/ekubokirs/gradGift" target="_blank">Ruby on Rails Project</a></li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Camping Trip Food Planning Activity</h2>
+					<p>We're going to make a list of food items we need for a camping trip on the white board.</p>
+				</section>
+				<section>
+					<h2><a href="https://github.com/ekubokirs/introToGithubExamples" target="_blank">Github Camping Trip Food Planning</a><h2>
 				</section>
 				<section>
 					<h2>Vocabulary</h2>
@@ -103,35 +91,9 @@
 						<li class="fragment">Remote: The server where the code lives that is not your computer</li>
 						<li class="fragment">Repository: Folder/Directory</li>
 						<li class="fragment">Commit: Defined version of your code and the changes you are making</li>
-						<li class="fragment">Sync
-							<ul>
-								<li>Pushing: Moving code from your machine to the server</li>
-								<li>Pulling: Bringing changes down to your machine from the server</li>
-							</ul>
-						</li>
-					</ul>
-				</section>
-				<section>
-					<h2 id="fragments">Recap Time</h2>
-					<ul>
-						<li class="fragment">What is git?</li>
-						<li class="fragment">What is a repository?</li>
-						<li class="fragment">What is a remote?</li>
-					</ul>
-				</section>
-				<section>
-					<h2>We will be using Github for Desktop in class.</h2>
-					<ul>
-						<li>Homework</li>
-						<li>Class Slides</li>
-						<li>Final Projects</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Activity: How to use Github for Desktop for Submitting Homework</h2>
-					<ul>
-						<li>Upload Homework 1</li>
-						<li>Upload Homework 2</li>
+						<li class="fragment">Pushing: Moving code from your machine to the server</li>
+						<li class="fragment">Pulling: Bringing changes down to your machine from the server</li>
+						<li class="fragment">If you're using Github for Desktop, "Sync" Pulls and Pushes to the remote</li>
 					</ul>
 				</section>
 				<section>
@@ -142,17 +104,9 @@
 					</ul>
 				</section>
 				<section>
-					<h2>Getting Class Materials</h2>
-					<ul>
-						<li>On Github, go to the class repository page.</li>
-						<li>Click fork.</li>
-						<li>Clone the repository in Github for Desktop</li>
-					</ul>
-				</section>
-				<section>
 					<h2>Collaboration in the Real World: Bringing It All Together</h2>
 					<ul>
-						<li>Merging
+						<li>Cloning and Merging or Rebasing
 							<ul>
 								<li>Everyone has full access</li>
 								<li>Can cause a lot of conflicts that have to be resolved</li>
@@ -163,12 +117,20 @@
 								<li>Easier to see the files that everyone changed</li>
 								<li>More complicated to manage</li>
 								<li>Adds an extra step</li>
+								<li>Can be assigned to others for code review</li>
+
 							</ul>
 						</li>
 				</section>
+				<section>
+					<h2>Rebasing versus Merging</h2>
+					<ul>
+						<li>Rebasing: Rewrites the history of the branch/commits</li>
+						<li>Merging: Puts commits back into the history based on where the branches diverged</li>
+					</ul>
+				</section>
 			</div>
 		</div>
-
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
